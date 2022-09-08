@@ -15,10 +15,11 @@ spec:
   params:
   - name: gitops_ssh_secret
     value: gitops-ssh
+  - name: gitops_sub_path
+    value: config/mae/mae-demo
   source:
     git:
       url: ssh://git@github.com/Mpluya/config-polaris-demo.git
       ref:
         branch: main
-    subPath: config/mae/mae-demo
 
