@@ -20,4 +20,5 @@ spec:
       url: ssh://git@github.com/Mpluya/config-polaris-demo.git
       ref:
         branch: main
+    subPath: config/mae/mae-demo
 
