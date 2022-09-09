@@ -1,0 +1,25 @@
+apiVersion: carto.run/v1alpha1
+kind: Deliverable
+metadata:
+  name: polaris-demo
+  namespace: rehan
+  labels:
+    app.kubernetes.io/part-of: polaris-demo
+    apps.tanzu.vmware.com/has-tests: "true"
+    apps.tanzu.vmware.com/language: java
+    apps.tanzu.vmware.com/workload-type: web
+    workload-intent: code-analysis
+    app.kubernetes.io/component: deliverable
+    app.tanzu.vmware.com/deliverable-type: web
+spec:
+  params:
+  - name: gitops_ssh_secret
+    value: ""
+  - name: gitops_sub_path
+    value: config/rehan/polaris-demo
+  source:
+    git:
+      url: https://github.com/Mpluya/config-polaris-demo.git
+      ref:
+        branch: main
+
