@@ -14,7 +14,7 @@ metadata:
 spec:
   params:
   - name: gitops_ssh_secret
-    value: ""
+    value: gitops-ssh
   - name: gitops_sub_path
     value: config/rehan/polaris-demo
   source:
