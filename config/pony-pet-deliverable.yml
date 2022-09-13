@@ -19,7 +19,7 @@ spec:
     value: config/mae/pony-pet
   source:
     git:
-      url: ssh://git@github.com/Mpluya/config-pony-pet.git
+      url: ssh://git@github.com/Mpluya/config-pet-clinic.git
       ref:
         branch: main
 
