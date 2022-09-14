@@ -11,6 +11,7 @@ metadata:
     workload-intent: code-analysis
     app.kubernetes.io/component: deliverable
     app.tanzu.vmware.com/deliverable-type: web
+    deliverable-intent: code-promotion
 spec:
   params:
   - name: gitops_ssh_secret
